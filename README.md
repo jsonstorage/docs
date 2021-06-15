@@ -1,6 +1,6 @@
 # jsonstorage
 
-Store and retrieve your JSON data for free using simple GET and POST requests [https://www.jsonstorage.net/](https://www.jsonstorage.net). Based on .NET Core and Azure Cosmos DB. Source code of the initial version is in the /legacy branch.
+Store and retrieve your JSON data for free using simple GET and POST requests [https://www.jsonstorage.net/](https://www.jsonstorage.net). Based on .NET Core and Azure Cosmos DB.
 
 ## Api
 
