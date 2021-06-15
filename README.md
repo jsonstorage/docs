@@ -89,8 +89,3 @@ and updating the code to use personalized title and text:
 The data is stored here: [https://app.jsonstorage.net/](https://app.jsonstorage.net/)
 
 ![backend](/docs/images//backend.PNG)
-
-## Related blog posts
-
-* [Build your startup on Azure. Part 1: JsonStorage.net](http://devopssnippets.blogspot.com/2017/03/build-your-startup-on-azure-part-1.html)
-* [Build your startup on Azure. Part 2: Creating and publishing the project](http://devopssnippets.blogspot.com/2017/04/build-your-startup-on-azure-part-2.html)
