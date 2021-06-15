@@ -17,12 +17,15 @@ PUT https://api.jsonstorage.net/json/(id)
 
 Entities created from the App always require API key (for editing).
 
-## Sample
+## Samples
 
-It uses jsonstorage as a data provider for storing to-dos
-
+API example: uses jsonstorage as a data provider for storing to-dos
 * Source Code [todomvc-jsonstorage](https://github.com/adoprog/todomvc-angular2-jsonstorage)
 * Hosted Demo [https://todomvc-jsonstorage.azurewebsites.net/](https://todomvc-jsonstorage.azurewebsites.net/)
+
+React + Netlify
+* https://github.com/jsonstorage/personalize-react-sample
+* https://jsonstorage-demo-react.netlify.app/
 
 ## App
 
