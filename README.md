@@ -2,6 +2,14 @@
 
 Store and retrieve your JSON data for free using simple GET and POST requests [https://www.jsonstorage.net/](https://www.jsonstorage.net). Based on .NET Core and Azure Cosmos DB.
 
+## Docs
+
+*PowerShell Samples*:
+https://github.com/jsonstorage/jsonstorage-samples-powershell
+
+*Python Samples*:
+https://github.com/jsonstorage/jsonstorage-samples-python
+
 ## Api
 
 Public API does not require authentication (as long as the item was intially created using unauthenticated request).
