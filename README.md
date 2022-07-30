@@ -30,7 +30,7 @@ React + Netlify
 PowerShell
 * https://github.com/jsonstorage/jsonstorage-samples-powershell
 
-Python Samples
+Python
 * https://github.com/jsonstorage/jsonstorage-samples-python
 
 ## App
