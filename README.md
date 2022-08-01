@@ -60,6 +60,7 @@ Intents allow to personalize served content based on one or many of the followin
 * Query String
 * Request Header
 * IP Address
+* Country (based on IP, use full country name in English)
 * (more to be added)
 
 You create intents first, and then assign intents and desired outputs to one of the items. The rules are executed top to bottom, the last rule (if applicable) will override the previous one.
