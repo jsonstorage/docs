@@ -4,18 +4,17 @@ Store and retrieve your JSON data for free using simple GET and POST requests [h
 
 ## Api
 
-Public API does not require authentication (as long as the item was intially created using unauthenticated request).
+*Get JSON* (can be public or require API key):
+GET https://api.jsonstorage.net/v1/json/{userId}/{itemId}
 
-*Get JSON*:
-GET https://api.jsonstorage.net/v1/json/(id)
+*Create JSON*:
+POST https://api.jsonstorage.net/v1/json?apiKey=%your api key%
 
-*Create JSON* (unauthenticated):
-POST https://api.jsonstorage.net/v1/json
+*Update JSON*:
+PUT https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey=%your api key%
 
-*Update JSON* (unauthenticated):
-PUT https://api.jsonstorage.net/json/(id)
-
-Entities created from the App always require API key (for editing).
+*Patch JSON*:
+PATCH https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey=%your api key%
 
 ## Samples
 
