@@ -8,13 +8,13 @@ Store and retrieve your JSON data for free using simple GET and POST requests [h
 GET https://api.jsonstorage.net/v1/json/{userId}/{itemId}
 
 *Create JSON*:
-POST https://api.jsonstorage.net/v1/json?apiKey=%your api key%
+POST https://api.jsonstorage.net/v1/json?apiKey={your_api_key}
 
 *Update JSON*:
-PUT https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey=%your api key%
+PUT https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey={your_api_key}
 
 *Patch JSON*:
-PATCH https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey=%your api key%
+PATCH https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey={your_api_key}
 
 ## Samples
 
