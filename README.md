@@ -16,6 +16,9 @@ PUT https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey={your_api_key}
 *Patch JSON*:
 PATCH https://api.jsonstorage.net/v1/json/{userId}/{itemId}?apiKey={your_api_key}
 
+*Submit a Form*:
+POST https://api.jsonstorage.net/v1/form
+
 ## Samples
 
 API example: uses jsonstorage as a data provider for storing to-dos
@@ -31,6 +34,14 @@ PowerShell
 
 Python
 * https://github.com/jsonstorage/jsonstorage-samples-python
+
+## Forms
+
+You can use JsonStorage as a back-end for your form submissions. Simply create a <form> and set the action to JsonStorage endpoint, see the example here: https://jsfiddle.net/adoprog/duzf3jkL/
+Additional hidden fields that you can pass via form are:
+
+* api_key (required) - API key with 'Create' permissions
+* redirect_url (optional) URL redirect after form submission (can be useful for confirmation pages, etc.)
 
 ## App
 
